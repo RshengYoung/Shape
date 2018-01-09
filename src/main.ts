@@ -1,7 +1,7 @@
-// import Shape from './model/shape'
-// import Retangle from './model/retangle'
-// import Circular from './model/circular'
-// import Square from './model/square'
+// import Shape from './include/shape'
+// import Retangle from './include/retangle'
+// import Circular from './include/circular'
+// import Square from './include/square'
 
 // import * as readLine from 'readline'
 // import { print } from 'util';

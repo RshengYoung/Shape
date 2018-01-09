@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import 'mocha'
 
-import Point from '../model/point'
+import Point from '../include/point'
 
 describe("Point", () => {
     let point = new Point(13, 18)

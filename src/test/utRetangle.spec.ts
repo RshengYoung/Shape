@@ -1,8 +1,8 @@
 import { expect } from 'chai'
 import 'mocha'
 
-import Point from '../model/point'
-import Retangle from '../model/retangle'
+import Point from '../include/point'
+import Retangle from '../include/retangle'
 
 describe("Retangle", () => {
     let retangle = new Retangle(new Point(10, 5), 10, 20)

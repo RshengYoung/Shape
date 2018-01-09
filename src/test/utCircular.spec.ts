@@ -1,8 +1,8 @@
 import { expect } from 'chai'
 import 'mocha'
 
-import Point from '../model/point'
-import Circular from '../model/circular'
+import Point from '../include/point'
+import Circular from '../include/circular'
 
 describe("Circular", () => {
     let circular = new Circular(new Point(10, 5), 3)

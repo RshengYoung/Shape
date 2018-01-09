@@ -1,12 +1,12 @@
 import { expect } from 'chai'
 import 'mocha'
 
-import Point from '../model/point'
-import Shape from '../model/shape'
-import Retangle from '../model/retangle'
-import Circular from '../model/circular'
-import Square from '../model/square'
-import Iterator from '../model/iterator'
+import Point from '../include/point'
+import Shape from '../include/shape'
+import Retangle from '../include/retangle'
+import Circular from '../include/circular'
+import Square from '../include/square'
+import Iterator from '../include/iterator'
 
 describe("Iterator", () => {
     let retangle = new Retangle(new Point(0, 5), 10, 5)
