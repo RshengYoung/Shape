@@ -1,0 +1,23 @@
+{
+    "name": "shape",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/main.js",
+    "scripts": {
+        "test": "mocha -r ts-node/register src/test/*.spec.ts",
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/chai": "^4.1.0",
+        "@types/mocha": "^2.2.46",
+        "chai": "^4.1.2",
+        "mocha": "^4.1.0",
+        "ts-node": "^4.1.0",
+        "typescript": "^2.6.2"
+    },
+    "dependencies": {
+        "@types/tedious": "^1.8.31"
+    }
+}
